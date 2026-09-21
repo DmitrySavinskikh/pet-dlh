@@ -96,7 +96,7 @@ services:
 
   # Iceberg REST Catalog
   iceberg-rest-catalog:
-    image: tabulario/iceberg-rest:1.6.0
+    image: tabulario/iceberg-rest:latest
     container_name: gameguard-iceberg-rest
     ports:
       - "8181:8181"
